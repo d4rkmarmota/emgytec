@@ -1574,7 +1574,7 @@ p {
   @media (max-width: 767px) {
     .lg-btn {
       font-size: 16px;
-      ine-height: 52px; } }
+      line-height: 52px; } }
 
 .el-btn {
   line-height: 80px !important;
@@ -2832,6 +2832,78 @@ p {
     .about-area .about-accordion .accordion .card .card-body {
       padding: 20px 20px 0; }
   .about-area .about-image img {
+    width: 100%; }
+
+
+  /*===========================
+       16.SERVICE css 
+===========================*/
+
+.service-top {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: #0067f4;
+  position: relative; }
+
+.service-area {
+  padding-top: 40px;
+  padding-bottom: 130px;
+  background-color: #fafbffa6;
+  position: relative; }
+  .service-area .about-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0067f4;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .service-area .about-title .sub-title {
+        font-size: 16px; } }
+  .service-area .about-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .service-area .about-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .service-area .about-title .title {
+        font-size: 22px; } }
+  .service-area .about-accordion .accordion .card {
+    border: 0;
+    background: none; }
+    .service-area .about-accordion .accordion .card .card-header {
+      padding: 0;
+      border: 0;
+      background: none;
+      margin-top: 40px; }
+      .service-area .about-accordion .accordion .card .card-header a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #000;
+        display: block;
+        position: relative;
+        padding-right: 20px; }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          .service-area .about-accordion .accordion .card .card-header a {
+            font-size: 16px; } }
+        @media (max-width: 767px) {
+          .service-area .about-accordion .accordion .card .card-header a {
+            font-size: 16px; } }
+        .service-area .about-accordion .accordion .card .card-header a::before {
+          content: '\ea58';
+          font-family: 'LineIcons';
+          position: absolute;
+          top: 50%;
+          right: 0;
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          transform: translateY(-50%); }
+      .service-area .about-accordion .accordion .card .card-header .collapsed::before {
+        content: '\ea5c'; }
+    .service-area .about-accordion .accordion .card .card-body {
+      padding: 20px 20px 0; }
+  .service-area .about-image img {
     width: 100%; }
 
 /*===========================
